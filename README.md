@@ -13,6 +13,8 @@ An **agent skill** (not an app, not a CLI) that produces a **Prototype Design Re
 
 The prototype is **not a spec**. It is a **brief in disguise** — real requirements, stakeholder assumptions, and AI filler mixed together. This skill teaches the agent to separate those layers and review **intent**, not pixels.
 
+![The Vibe-Check framework: Unpack (you, solo), The gaps (you + stakeholder), Scale up (you + AI)](docs/framework.jpg)
+
 ---
 
 ## Who it's for
@@ -40,6 +42,8 @@ The prototype is **not a spec**. It is a **brief in disguise** — real requirem
 - **Collaborative expert tone** — Not a roast. Stakeholder-facing prose uses the four verdicts above, not internal jargon.
 - **Exactly five questions** — Each names a prototype element, states the gap, suggests a default, and maps to the design decision it unblocks.
 - **Complements visual design review** — Does not replace one. Does **not** start Figma or rewrite the prototype.
+
+![What AI actually did vs what it couldn't: volume and pattern detection versus intent, judgment, and relationships](docs/ai-did-vs-couldnt.jpg)
 
 ---
 
@@ -179,6 +183,9 @@ Give the agent whatever you have:
 ├── README.md
 ├── LICENSE
 ├── NOTICE.md
+├── docs/
+│   ├── framework.jpg
+│   └── ai-did-vs-couldnt.jpg
 └── vibe-check/
     ├── SKILL.md
     └── references/
